@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>🐊 Crocodile Chat</title>
+
+    <style>
+      html {
+        font-size: 62.5%;
+        box-sizing: border-box;
+      }
+
+      body {
+        padding: 5rem 5rem 10rem;
+        line-height: 1.7;
+        font-family: "Megrim", sans-serif;
+        color: #555;
+        min-height: 100vh;
+        background: #1fb95a;
+      }
+
+      h1 {
+        font-family: "Megrim", sans-serif;
+        font-size: 5rem;
+        color: white;
+        transform: skewY(-2deg);
+        text-align: center;
+        position: relative;
+        word-spacing: 4px;
+        margin-bottom: 6rem;
+      }
+
+      .messages {
+        font-family: "Megrim", sans-serif;
+        font-size: 2.5rem;
+        color: white;
+        text-align: left;
+        position: relative;
+        word-spacing: 3px;
+      }
+
+      .container {
+        width: 95rem;
+        margin: 0 auto;
+      }
+
+      .button {
+        margin-bottom: 2rem;
+      }
+
+      .button2 {
+        margin-bottom: 2rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>🐊 Crocodile Chat Login 🐊</h1>
+      <form method="post" action="login">
+        <div class="text">
+          <input
+            type="text"
+            name="username"
+            id="User"
+            placeholder="Username"
+            style="
+              border-radius: 20px;
+              border: 2px solid white;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 50%;
+              margin-bottom: 10px;
+              padding: 10px;
+            "
+          />
+        </div>
+
+        <div class="text">
+          <input
+            type="password"
+            name="password"
+            id="Psw"
+            placeholder="Password"
+            style="
+              border-radius: 20px;
+              border: 2px solid white;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 50%;
+              margin-bottom: 10px;
+              padding: 10px;
+            "
+          />
+        </div>
+
+        <div class="button">
+          <button
+            class="encrypt-button"
+            id="enc"
+            title="Send Message!"
+            style="
+              border-radius: 20px;
+              border: 1px solid #037a31;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 50%;
+              height: 30px;
+            "
+            type="submit"
+            value="Login"
+          >
+            Login
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
